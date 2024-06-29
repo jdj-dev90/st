@@ -5,12 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-// static char *font = "Source Code Pro:pixelsize=18:antialias=true:autohint=true";
-// static char *font2[] = { "Source Code Pro:pixelsize=18:antialias=true:autohint=true" };
-static char *font = "JetBrainsMono Nerd Font:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = { "JetBrainsMono Nerd Font:pixelsize=16:antialias=true:autohint=true" };
+static char *font = "Source Code Pro:pixelsize=22:antialias=true:autohint=true";
+static char *font2[] = { "Source Code Pro:pixelsize=22:antialias=true:autohint=true" };
 static int borderpx = 2;
-
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -113,8 +110,6 @@ unsigned int tabspaces = 2;
 float alpha = 0.8;
 float alphaOffset = 0.0;
 float alphaUnfocus;
-
-
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
